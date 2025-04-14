@@ -57,11 +57,11 @@ def play_cat():
 print("🐾 고양이 출력 프로그램 (5번 반복 시작)")
 for i in range(5):
     play_cat()
-print("🐾 5번 반복 종료")
+print("🐾종료")
 
 # 2단계: 무한 반복 (0 입력 시 종료)
-print("🐾 고양이 출력 프로그램 (0 입력 시 종료 시작)")
+print("🐾 고양이 출력 프로그램 (0 입력 시 종료)")
 while True:
     if not play_cat():
-        print("🐾 프로그램 종료")
+        print("🐾 종료")
         break
